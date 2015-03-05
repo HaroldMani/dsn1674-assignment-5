@@ -1,0 +1,116 @@
+html{
+	box-sizing: border-box;
+	font-family: 'Merriweather', serif;
+	background-color: white;
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+.gleft{
+	float: left;
+	width: 10%;
+	padding-top: .5em;
+}
+
+.gright{
+	float: right;
+	width: 10%;
+	padding-top: .5em;
+}
+
+body{
+	margin: 0;
+}
+
+header{
+	background-color: #d05c2e;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+nav li{
+	display: inline-block;
+	text-align: center;
+}
+
+ol{
+	list-style-type: none;
+	line-height: 1.5;
+	text-align: center;
+	padding: 0;
+}
+
+nav a{
+	display: inline-block;
+	padding: .5em .75em;
+	text-decoration: none;
+	text-align: center;
+	background-color: #d05c2e;
+	border: 1px solid #a93f35;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	background-color: #a93f35;
+}
+
+div{
+	background-color: #dc8252;
+}
+
+.grains{
+	float: left;
+	width: 35%;
+	margin-right: 15px;
+}
+
+.cereals{
+	float: right;
+	width: 35%;
+	clear: both;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.quinoa{
+	float: right;
+	width: 35%;
+	clear: both;
+	margin-left: 15px;
+}
+
+.corn{
+
+}
+
+.rice{
+
+}
+
+.oats{
+
+}
+
+.peanuts{
+
+}
+
+.beans{
+
+}
+
+.lentils{
+
+}
